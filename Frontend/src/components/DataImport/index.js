@@ -101,7 +101,7 @@ const DataImport = () => {
     const handleOnSuccess = () => (
         <div className="mt-4 p-4 bg-green-50 border-l-4 border-green-500 text-green-700">
             <p className="font-semibold">Success!</p>
-            <p>Data has been confirmed and is ready for submission.</p>
+            <p>Data Uploded!</p>
             <button
                 onClick={handleRestart}
                 className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
